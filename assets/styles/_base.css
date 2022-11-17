@@ -1,0 +1,57 @@
+/* ***************** */
+/* RESET CSS */
+/* ***************** */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--black-01);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+/* ***************** */
+/* REUSABLE ELEMENT */
+/* ***************** */
+
+.container {
+  max-width: 94.375rem;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.heading-primary {
+  font-size: 1.5rem;
+  margin-bottom: 1.125rem;
+
+}
+
+.heading-secondary {
+  font-size: 1.125rem;
+  margin-bottom: 1.125rem;
+}
